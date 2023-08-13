@@ -95,6 +95,10 @@ section.form {
       margin-top: 2em;
       background-color: yellow;
       padding: 0.5em 10em;
+      &:hover {
+        background-color: #000000;
+        color: #ffff00;
+      }
     }
     label {
       display: block;
